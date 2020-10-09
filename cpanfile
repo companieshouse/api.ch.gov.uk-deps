@@ -10,7 +10,7 @@ requires 'YAML', '==1.18'; # Must be resolved before Log::Log4perl::Appender::Fl
 requires 'Mango', '>=1.29, <2.00';
 requires 'Authen::SCRAM', '<1.0';
 
-requires 'CH::CompanyNameEndings', '==0.35';
+requires 'CH::CompanyNameEndings', '==0.38';
 requires 'CH::Log', '==0.32';
 requires 'CH::MojoX::Administration::Plugin', '==0.21'; # FIXME: repo: CH::MojoX::Administration
 requires 'CH::MojoX::Error::Renderer', '==0.32';
