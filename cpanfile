@@ -2,6 +2,7 @@
 # are resolved upfront by "pre-requiring" them.
 # XXX unlike the rest of this file, the order in this
 # section is important.
+requires 'Devel::Declare', '==0.006019';
 requires 'Readonly', '==2.05';
 requires 'Mojolicious', '==5.47';
 requires 'Moose', '==2.1603';
