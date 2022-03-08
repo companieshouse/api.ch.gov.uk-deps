@@ -4,6 +4,8 @@
 # section is important.
 requires 'Devel::Declare', '==0.006019';
 requires 'Readonly', '==2.05';
+requires 'IO::Socket::SSL', '>=1.981';
+requires 'Crypt::CBC', '==2.33';
 requires 'Mojolicious', '==5.47';
 requires 'Moose', '==2.1603';
 requires 'YAML::XS', '==0.62'; # Must be resolved before CH::MojoX::Plugin::Config
@@ -23,7 +25,6 @@ requires 'CH::MojoX::Plugin::QueueAPI', '==0.01';
 requires 'CH::MojoX::Plugin::CORS', '==0.36'; # FIXME: repo: CH::MojoX::Plugin::Route
 requires 'CH::Perl', '==0.31';
 requires 'CH::Regex', '==0.31';
-requires 'Crypt::CBC', '==2.33';
 requires 'DateTime', '==1.12';
 requires 'DateTime::Format::ISO8601', '==0.08';
 requires 'DateTime::Tiny', '==1.04';
@@ -37,7 +38,7 @@ requires 'MojoX::Log::Declare', '==0.32';
 requires 'MojoX::Plugin::Hook::BeforeRendered', '==0.3';
 requires 'MojoX::Plugin::Statsd', '==0.02';
 requires 'MooseX::Model', '==0.31';
-requires 'Try::Tiny', '==0.30';
+-requires 'Try::Tiny', '==0.31';
 
 test_requires 'CH::Test', '==0.32';
 test_requires 'JSON::XS', '==3.01';
