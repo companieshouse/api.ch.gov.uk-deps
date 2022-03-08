@@ -4,6 +4,7 @@
 # section is important.
 requires 'Devel::Declare', '==0.006019';
 requires 'Readonly', '==2.05';
+requires 'IO::Socket::SSL', '>=1.981';
 requires 'Mojolicious', '==5.47';
 requires 'Moose', '==2.1603';
 requires 'YAML::XS', '==0.62'; # Must be resolved before CH::MojoX::Plugin::Config
