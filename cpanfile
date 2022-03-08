@@ -31,6 +31,8 @@ requires 'DateTime::Tiny', '==1.04';
 requires 'File::Slurp', '==9999.19';
 requires 'Log::Declare', '==0.10';
 requires 'Log::Log4perl';
+requires 'Data::MessagePack::Stream', '==1.04';
+requires 'Fluent::Logger', '==0.28';
 requires 'Log::Log4perl::Appender::Fluent', '==0.04';
 requires 'MangoX::Queue', '==0.12';
 requires 'Mojolicious::Plugin::MangoWrapper', '==0.32';
