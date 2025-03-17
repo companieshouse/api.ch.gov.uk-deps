@@ -38,7 +38,7 @@ requires 'MangoX::Queue', '==0.12';
 requires 'Mojolicious::Plugin::MangoWrapper', '==0.32';
 requires 'MojoX::Log::Declare', '==0.32';
 requires 'MojoX::Plugin::Hook::BeforeRendered', '==0.3';
-requires 'MojoX::Plugin::Statsd', '==0.02';
+requires 'MojoX::Plugin::Statsd', '==0.30';
 requires 'MooseX::Model', '==0.31';
 -requires 'Try::Tiny', '==0.31';
 
