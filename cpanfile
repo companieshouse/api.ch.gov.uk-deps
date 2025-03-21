@@ -20,7 +20,7 @@ requires 'CH::MojoX::Error::Renderer', '==0.32';
 requires 'CH::MojoX::Plugin::Bridge::Authorisation', '==0.37'; # FIXME: repo: CH::MojoX::Plugin::Bridge
 requires 'CH::MojoX::Plugin::Config', '==0.04';
 requires 'CH::MojoX::Plugin::Exception', '==0.02';
-requires 'CH::MojoX::Plugin::HealthCheck', '==0.11';
+requires 'CH::MojoX::Plugin::HealthCheck', '==0.12';
 requires 'CH::MojoX::Plugin::QueueAPI', '==0.01';
 requires 'CH::MojoX::Plugin::CORS', '==0.36'; # FIXME: repo: CH::MojoX::Plugin::Route
 requires 'CH::Perl', '==0.31';
